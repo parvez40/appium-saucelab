@@ -1,0 +1,2 @@
+***command to upload apk file in saucelabs temporary cloud storage for seven days***
+$ curl -u parvez40:87ddeada-f20c-4530-a63f-0580aed75d33 -X POST "Content-Type: application/octet-stream"  https://saucelabs.com/rest/v1/storage/parvez40/calculator.apk?overwrite=true --data-binary @D:/AppiumTools/calculator.apk
